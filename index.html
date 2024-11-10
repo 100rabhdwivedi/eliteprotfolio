@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="main h-screen w-screen relative ">
+        
+        <div class="topnav h-[100vh] top-[-120vh] w-full bg-[#121210] text-[#ccc5c2] absolute gap-2 z-[9] flex flex-col items-center justify-center ">
+            <div class=" canopee w-[100%] h-[25%] overflow-hidden flex items-center justify-center ">
+                <h1 class="text-[8rem] md:text-[16rem] text1  translate-y-[100%] relative">index</h1>
+                <div class="h-2 bg-red-500 absolute cross "></div>
+            </div>
+            <div class=" canopee w-[100%]  overflow-hidden   h-[25%] flex items-center justify-center">
+                <h1 class="text-[8rem] md:text-[16rem] translate-y-[100%] text2">work</h1>
+            </div>
+            <div class=" canopee w-[100%]  overflow-hidden h-[25%] flex items-center justify-center">
+                <h1 class=" text-[8rem] md:text-[16rem]  translate-y-[100%] text3">about</h1>
+            </div>
+        </div>
+        <div class="nav h-[10vh] z-[99]  w-full relative  flex items-center justify-between px-4 md:px-12 text-black">
+            <h1 class="editorial text-sm md:text-xl">Folio Vol. 1</h1>
+            <h1 class="canopee text-2xl md:text-4xl uppercase">The elite protfolio</h1>
+            <div class=" flex flex-col menu">
+                <span class="h-[2px] w-8 bg-black mb-2 line1"></span>
+                <span class="h-[2px] w-8 bg-black line2"></span>
+            </div>
+        </div>
+        
+        <div class="center h-[90vh] w-[100%] px-4 md:px-12 relative ">
+            <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1478641300939-0ec5188d3802?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>

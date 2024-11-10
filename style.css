@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "canopee";
+    src: url('./616fd1dd00cf6c70f978fc69_Canopee.ttf');
+}
+
+@font-face {
+    font-family: "editoial" ;
+    src: url('./5f242a694256f02b944d5767_EditorialNew-Light.ttf');
+}
+.canopee{
+    font-family: "canopee";
+}
+
+.editorial{
+    font-family: "editorial";
+}
